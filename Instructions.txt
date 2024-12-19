@@ -1,0 +1,21 @@
+The app provides two ways to get predictions:
+
+Manual Input:
+
+Select a date
+Enter previous sales values (lag_1 and lag_3)
+Click "Predict" to get a single prediction
+
+
+CSV Upload:
+
+Upload a CSV file with 'date' and 'quantity' columns
+View predictions for the entire dataset
+Download results as a new CSV file
+
+
+
+The CSV file should have the same format as your training data, with at least:
+
+A 'date' column (in YYYY-MM-DD format)
+A 'quantity' column with sales values
